@@ -1,0 +1,36 @@
+.container{
+    border: 0.1px solid black;
+    
+}
+
+.card-header{
+    background-color: rgb(237, 225, 225);
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px;
+}
+
+.add-button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.card-nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+}
+
+.delete-btn{
+    background-color: blue;
+    color: whitesmoke;
+    margin: 10px;
+    border-radius: 5px;
+}
